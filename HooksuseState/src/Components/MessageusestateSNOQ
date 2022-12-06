@@ -1,0 +1,15 @@
+import React,{useState} from "react"
+const MessageusestateSNOQ=()=>
+{
+    let [msg,setMsg]=useState("Hello....")
+    let[qty,setQty]=useState(0)
+    let[contacts,setContacts]=useState([])
+    let[emp,setEmp]=useState({})
+    return (
+        <div>
+        <button onlick={}>GM</button>
+        <button onClick={}>GN</button>
+        </div>
+    )
+}
+export default MessageusestateSNOQ
